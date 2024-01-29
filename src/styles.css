@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.liner {
+    background: linear-gradient(103deg, #31C1E1 0%, #B24FFF 100%);
+}
+
+body::selection {
+  background: linear-gradient(103deg, #31C1E1 0%, #B24FFF 100%)
+}
+
+.liner:hover {
+  transition: all;
+  transition-duration: 500ms;
+  background: linear-gradient(103deg, #B24FFF 0%, #31C1E1 100%);
+}
+
+.attack {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  background: linear-gradient(109deg, #232A3D 0%, rgba(33, 38, 52, 0.06) 100%);
+}
+
+.sword {
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: linear-gradient(103deg, #B24FFF 0%, #31C1E1 100%);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  background: linear-gradient(109deg, #232A3D 0%, rgba(33, 38, 52, 0.06) 100%);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  background: linear-gradient(109deg, #232A3D 0%, rgba(33, 38, 52, 0.06) 100%);
+}
+
+.button-swiper {
+  padding: 12px;
+}
+
+.box-background {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  background: linear-gradient(109deg, #232A3D 0%, rgba(33, 38, 52, 0.06) 100%); 
+}
+
+.boxsecond {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  background: linear-gradient(109deg, #232A3D 0%, rgba(33, 38, 52, 0.06) 100%);
+}
+
+.boxOne-gradient {
+  border-radius: 0px 12px 0px 0px;
+  background: linear-gradient(90deg, #30931F 0%, #5CC32C 100%);
+}
+
+.boxTwo-gradient {
+  border-radius: 0px 0px 12px 0px;
+  background: linear-gradient(90deg, #1761DE 0%, #3590D1 100%); 
+}
+
+.wey-box {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  background: linear-gradient(109deg, #232A3D 0%, rgba(33, 38, 52, 0.06) 100%);
+}
+
+.wey-box:hover {
+  border-radius: 12px;
+  border: 1px solid var(--Linear, #31C1E1);
+  background: linear-gradient(109deg, #232A3D 0%, rgba(33, 38, 52, 0.06) 100%);
+}
+
+.line {
+  background: rgba(255, 255, 255, 0.10);
+}
+
+.bluree {
+  background: linear-gradient(103deg, #00A4DB 0%, #007196 100%);
+}
+
+.boxer {
+  display: flex;
+  padding: 16px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: linear-gradient(109deg, #232A3D 0%, rgba(33, 38, 52, 0.06) 100%);
+}
+
+.linkBox {
+  border-radius: 12px;
+  background: linear-gradient(109deg, #232A3D 0%, rgba(33, 38, 52, 0.06) 100%);
+}
+
+/* .linkBox:hover {
+  border-radius: 12px;
+  border: 1px solid var(--Linear, #31C1E1);
+  background: linear-gradient(109deg, #232A3D 0%, rgba(33, 38, 52, 0.06) 100%);
+} */
+
+.bg {
+  background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/backgrounds/grey_painterly_wide.png);
+  transition: all;
+  background-size: cover;
+  transition-duration: 300ms;
+}
+
+.bg:hover {
+  filter: brightness(1.2);
+}
